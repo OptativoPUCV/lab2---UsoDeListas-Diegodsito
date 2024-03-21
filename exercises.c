@@ -63,7 +63,7 @@ int sumaLista(List *L) {
      suma += *elemento;
      elemento = next(L);
    }
-   return 0;
+   return suma;
 }
 
 /*

@@ -255,3 +255,17 @@ exercises.c:129:1: error: control reaches end of non-void function [-Werror=retu
 cc1: all warnings being treated as errors
 Compilation failed
 2b7cc27
+Thu 21 Mar 2024 07:51:05 PM UTC: 
+ exercises.c | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:121:30: error: expected expression before ‘char’
+  121 |       if(cadena[i] == ')' && char top(P) == '(' ||
+      |                              ^~~~
+exercises.c:129:1: error: control reaches end of non-void function [-Werror=return-type]
+  129 | }
+      | ^
+cc1: all warnings being treated as errors
+Compilation failed
+4be71a5

@@ -119,9 +119,7 @@ int parentesisBalanceados(char *cadena) {
     if(cadena[i] == '(' || cadena[i] == '[' || cadena[i] == '{') push(P, &cadena[i]);
     if(cadena[i] == ')' || cadena[i] == ']' || cadena[i] == '}'){
       if(cadena[i] == ')' && top(P) == '(') pop(P);
-      else return 0;
       if (cadena[i] == ']' && top(P) == '[') pop(P);
-      else return 0;
       if (cadena[i] == '}' && top(P) == '{') pop(P);
       else return 0;
       }

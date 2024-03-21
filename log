@@ -1,0 +1,12 @@
+Thu 21 Mar 2024 07:09:54 PM UTC: 
+ exercises.c | 6 ++++++
+ 1 file changed, 6 insertions(+)
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:49:7: error: implicit declaration of function ‘push_front’; did you mean ‘pushFront’? [-Werror=implicit-function-declaration]
+   49 |       push_front(L, dato);
+      |       ^~~~~~~~~~
+      |       pushFront
+cc1: all warnings being treated as errors
+Compilation failed
+6825dab

@@ -56,3 +56,14 @@ Thu 21 Mar 2024 07:25:01 PM UTC:
  1 file changed, 11 insertions(+)
  tests:  0|0
 ae8ea78
+Thu 21 Mar 2024 07:27:19 PM UTC: 
+ exercises.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘copia_pila’:
+exercises.c:99:16: error: ‘dato’ undeclared (first use in this function)
+   99 |     push(Paux, dato);
+      |                ^~~~
+exercises.c:99:16: note: each undeclared identifier is reported only once for each function it appears in
+Compilation failed
+808c24b
